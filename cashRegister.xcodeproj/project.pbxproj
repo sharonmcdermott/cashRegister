@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80FBDB361E2D724600FB8AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FBDB351E2D724600FB8AFA /* main.m */; };
+		80FBDB391E2D724600FB8AFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FBDB381E2D724600FB8AFA /* AppDelegate.m */; };
+		80FBDB3C1E2D724600FB8AFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FBDB3B1E2D724600FB8AFA /* ViewController.m */; };
+		80FBDB3F1E2D724600FB8AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FBDB3D1E2D724600FB8AFA /* Main.storyboard */; };
+		80FBDB411E2D724600FB8AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FBDB401E2D724600FB8AFA /* Assets.xcassets */; };
+		80FBDB441E2D724600FB8AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FBDB421E2D724600FB8AFA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80FBDB311E2D724600FB8AFA /* cashRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cashRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FBDB351E2D724600FB8AFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80FBDB371E2D724600FB8AFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80FBDB381E2D724600FB8AFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80FBDB3A1E2D724600FB8AFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80FBDB3B1E2D724600FB8AFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80FBDB3E1E2D724600FB8AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80FBDB401E2D724600FB8AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80FBDB431E2D724600FB8AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80FBDB451E2D724600FB8AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FBDB2E1E2D724600FB8AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80FBDB281E2D724600FB8AFA = {
+			isa = PBXGroup;
+			children = (
+				80FBDB331E2D724600FB8AFA /* cashRegister */,
+				80FBDB321E2D724600FB8AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80FBDB321E2D724600FB8AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FBDB311E2D724600FB8AFA /* cashRegister.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FBDB331E2D724600FB8AFA /* cashRegister */ = {
+			isa = PBXGroup;
+			children = (
+				80FBDB371E2D724600FB8AFA /* AppDelegate.h */,
+				80FBDB381E2D724600FB8AFA /* AppDelegate.m */,
+				80FBDB3A1E2D724600FB8AFA /* ViewController.h */,
+				80FBDB3B1E2D724600FB8AFA /* ViewController.m */,
+				80FBDB3D1E2D724600FB8AFA /* Main.storyboard */,
+				80FBDB401E2D724600FB8AFA /* Assets.xcassets */,
+				80FBDB421E2D724600FB8AFA /* LaunchScreen.storyboard */,
+				80FBDB451E2D724600FB8AFA /* Info.plist */,
+				80FBDB341E2D724600FB8AFA /* Supporting Files */,
+			);
+			path = cashRegister;
+			sourceTree = "<group>";
+		};
+		80FBDB341E2D724600FB8AFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FBDB351E2D724600FB8AFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FBDB301E2D724600FB8AFA /* cashRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FBDB481E2D724600FB8AFA /* Build configuration list for PBXNativeTarget "cashRegister" */;
+			buildPhases = (
+				80FBDB2D1E2D724600FB8AFA /* Sources */,
+				80FBDB2E1E2D724600FB8AFA /* Frameworks */,
+				80FBDB2F1E2D724600FB8AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cashRegister;
+			productName = cashRegister;
+			productReference = 80FBDB311E2D724600FB8AFA /* cashRegister.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FBDB291E2D724600FB8AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "sharon mcdermott";
+				TargetAttributes = {
+					80FBDB301E2D724600FB8AFA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E24NELMJLG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 80FBDB2C1E2D724600FB8AFA /* Build configuration list for PBXProject "cashRegister" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80FBDB281E2D724600FB8AFA;
+			productRefGroup = 80FBDB321E2D724600FB8AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FBDB301E2D724600FB8AFA /* cashRegister */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FBDB2F1E2D724600FB8AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FBDB441E2D724600FB8AFA /* LaunchScreen.storyboard in Resources */,
+				80FBDB411E2D724600FB8AFA /* Assets.xcassets in Resources */,
+				80FBDB3F1E2D724600FB8AFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FBDB2D1E2D724600FB8AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FBDB3C1E2D724600FB8AFA /* ViewController.m in Sources */,
+				80FBDB391E2D724600FB8AFA /* AppDelegate.m in Sources */,
+				80FBDB361E2D724600FB8AFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80FBDB3D1E2D724600FB8AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FBDB3E1E2D724600FB8AFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80FBDB421E2D724600FB8AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FBDB431E2D724600FB8AFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80FBDB461E2D724600FB8AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		80FBDB471E2D724600FB8AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FBDB491E2D724600FB8AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E24NELMJLG;
+				INFOPLIST_FILE = cashRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharonmcdermott.cashRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80FBDB4A1E2D724600FB8AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E24NELMJLG;
+				INFOPLIST_FILE = cashRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sharonmcdermott.cashRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FBDB2C1E2D724600FB8AFA /* Build configuration list for PBXProject "cashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FBDB461E2D724600FB8AFA /* Debug */,
+				80FBDB471E2D724600FB8AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FBDB481E2D724600FB8AFA /* Build configuration list for PBXNativeTarget "cashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FBDB491E2D724600FB8AFA /* Debug */,
+				80FBDB4A1E2D724600FB8AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80FBDB291E2D724600FB8AFA /* Project object */;
+}
