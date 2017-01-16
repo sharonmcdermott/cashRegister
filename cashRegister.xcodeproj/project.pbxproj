@@ -13,6 +13,7 @@
 		80FBDB3F1E2D724600FB8AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FBDB3D1E2D724600FB8AFA /* Main.storyboard */; };
 		80FBDB411E2D724600FB8AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80FBDB401E2D724600FB8AFA /* Assets.xcassets */; };
 		80FBDB441E2D724600FB8AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FBDB421E2D724600FB8AFA /* LaunchScreen.storyboard */; };
+		80FBDB4F1E2D8FEA00FB8AFA /* ProductCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FBDB4E1E2D8FEA00FB8AFA /* ProductCode.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		80FBDB401E2D724600FB8AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80FBDB431E2D724600FB8AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80FBDB451E2D724600FB8AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FBDB4E1E2D8FEA00FB8AFA /* ProductCode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProductCode.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				80FBDB351E2D724600FB8AFA /* main.m */,
+				80FBDB4E1E2D8FEA00FB8AFA /* ProductCode.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80FBDB441E2D724600FB8AFA /* LaunchScreen.storyboard in Resources */,
+				80FBDB4F1E2D8FEA00FB8AFA /* ProductCode.storyboard in Resources */,
 				80FBDB411E2D724600FB8AFA /* Assets.xcassets in Resources */,
 				80FBDB3F1E2D724600FB8AFA /* Main.storyboard in Resources */,
 			);
@@ -312,6 +316,7 @@
 				80FBDB4A1E2D724600FB8AFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
